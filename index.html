@@ -14,7 +14,7 @@
 
     <div id="app">
         <ul v-for="email in emails">
-            <li>{{email}}</li>
+            <li>{{emails.length == 10?email:''}}</li>
         </ul>
     </div>
     
